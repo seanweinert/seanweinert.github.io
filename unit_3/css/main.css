@@ -8,4 +8,9 @@ h1 {
 
 }
 p, ul {
-    color: #66cccc
+    color: #66cccc;
+}
+a {
+    color: lightgrey;
+    text-decoration: none;
+ }
