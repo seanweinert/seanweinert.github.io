@@ -14,14 +14,20 @@ body {
     font-family: 'Neo Latina';
     src: url(../fonts/neo-latina-demo-FFP.ttf);
 }
+
 h1 {
     color: #ffffff;
     font-family: 'Neo Latina';
     font-size: 5em;
+    line-height: 0;
     
+}
+h2 {
+    line-height: 0;
 }
 p, ul {
     color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 a {
@@ -31,5 +37,11 @@ a {
  #slogan {
      font-family: 'Neo Latina';
      font-size: 2em;
-     color: #62cae1
+     color: #62cae1;
+     line-height: 0;
+     
+ }
+
+ #description{
+     font-size: 1.3em;
  }
