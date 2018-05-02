@@ -4,15 +4,21 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    
+}
+@font-face {
+    font-family: 'Neo Latina';
+    src: url(fonts/neo-latina-demo-FFP.ttf);
 }
 h1 {
     color: #ffffff;
-
+    font-family: 'Neo Latina';
+    
 }
 p, ul {
     color: #66cccc;
 }
+
 a {
     color: lightgrey;
     text-decoration: none;
