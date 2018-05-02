@@ -8,11 +8,12 @@ body {
 }
 @font-face {
     font-family: 'Neo Latina';
-    src: url(fonts/neo-latina-demo-FFP.ttf);
+    src: url(../fonts/neo-latina-demo-FFP.ttf);
 }
 h1 {
     color: #ffffff;
     font-family: 'Neo Latina';
+    font-size: 5em;
     
 }
 p, ul {
