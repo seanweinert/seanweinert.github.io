@@ -11,22 +11,19 @@ body {
     background-size: 50em;
     background-repeat: no-repeat;
     background-position: top left;
-    
+    background-attachment: fixed;
     
 }
 
 main {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-
+    text-align: center;
 }
 header {
     margin:0px;
-}
-main{
-    text-align: center;
-   
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 h1 {
@@ -34,17 +31,26 @@ h1 {
     font-family: 'Neo Latina';
     font-size: 5em;
     text-shadow: 2px 2px #000000;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
   
     
 }
 h2 {
     text-align: center;
+    margin: 0px;
 }
 p, ul {
     color: #ffffff;
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.3em;
     text-shadow: 2px 2px #000000;
+    max-width: 700px;
+    text-align: center;
+    list-style-position: inside;
+    margin: 0 auto;
 }
 
 a {
@@ -53,7 +59,7 @@ a {
  }
  #slogan {
      font-family: 'Neo Latina';
-     font-size: 2em;
+     font-size: 1.5em;
      color: #62cae1;
      text-shadow: 2px 2px #000000;
      
@@ -62,13 +68,13 @@ a {
      color: white;
  }
 
- #description{
-     font-size: 1.3em;
- }
- #list{
-     list-style-position: inside
- }
+#tagline{
+    font-size: 2.5em;
+    font-family: 'Neo Latina';
+    color: #fda500;
+    text-shadow: 1px 1px #000000;
 
+}
 
 .header {
     overflow: hidden;
@@ -104,17 +110,28 @@ a {
 }
 .header-right {
     float: right;
+    padding-right: 20px;
     font-family: 'Neo Latina';
+    
 }
 @media screen and (max-width: 500px){
     header{
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
     }
     .header-right {
         float: left;
         width: 100%;
+        text-align: center;
+    }
+    .logo {
+        text-align:center;
+        width: 100%;
+        display: block;
+    }
+    .header a{
+        float: none
     }
 }
 footer {
