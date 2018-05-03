@@ -33,8 +33,9 @@ h1 {
     color: #ffffff;
     font-family: 'Neo Latina';
     font-size: 5em;
-    line-height: 0;
+    line-height: 0px;
     text-shadow: 2px 2px #000000;
+  
     
 }
 h2 {
@@ -66,6 +67,9 @@ a {
 
  #description{
      font-size: 1.3em;
+ }
+ #list{
+     list-style-position: inside;
  }
 
 
