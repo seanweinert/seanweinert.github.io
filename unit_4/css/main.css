@@ -69,14 +69,13 @@ a {
      font-size: 1.3em;
  }
  #list{
-     list-style-position: inside;
+     list-style-position: inside
  }
 
 
 .header {
     overflow: hidden;
     background-color: #41414188;
-    padding: 5px;
     margin: auto;
     width: 100%;
 }
