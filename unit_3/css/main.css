@@ -5,15 +5,17 @@
 }
 body {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
     background-image: url("../images/logo.png");
     background-size: 20em;
     background-repeat: no-repeat;
     background-position: top left;
     font-size: 16px; 
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 header {
@@ -59,8 +61,8 @@ a {
  
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px;
+    background-color: #272525;
+    padding: 5px;
     margin: auto;
     width: 100%;
 }
@@ -87,7 +89,7 @@ a {
 }
 
 .header a.active {
-    background-color: dodgerblue;
+    background-color: #62cae1;
     color: white;
 }
 .header-right {
@@ -102,4 +104,7 @@ a {
     .header-right {
         float: none;
     }
+}
+footer {
+    text-align: center;
 }
