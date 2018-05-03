@@ -33,13 +33,11 @@ h1 {
     color: #ffffff;
     font-family: 'Neo Latina';
     font-size: 5em;
-    line-height: 0px;
     text-shadow: 2px 2px #000000;
   
     
 }
 h2 {
-    line-height: 0;
     text-align: center;
 }
 p, ul {
@@ -57,7 +55,6 @@ a {
      font-family: 'Neo Latina';
      font-size: 2em;
      color: #62cae1;
-     line-height: 0;
      text-shadow: 2px 2px #000000;
      
  }
@@ -110,13 +107,14 @@ a {
     font-family: 'Neo Latina';
 }
 @media screen and (max-width: 500px){
-    header. a{
+    header{
         float: none;
         display: block;
         text-align: left;
     }
     .header-right {
-        float: none;
+        float: left;
+        width: 100%;
     }
 }
 footer {
