@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face {
+    font-family: 'Neo Latina';
+    src: url(../fonts/neo-latina-demo-FFP.ttf);
+}
+body {
+    background-color: black;
+    align-items: center;
+    font-size: 16px; 
+    background-image: url("../images/DF-20percent.png");
+    background-size: 50em;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    
+}
+
+main {
+    justify-content: center;
+    text-align: center;
+}
+header {
+    margin:0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Neo Latina';
+    font-size: 5em;
+    text-shadow: 2px 2px #000000;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+  
+    
+}
+h2 {
+    text-align: center;
+    margin: 0px;
+}
+p{
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    text-shadow: 2px 2px #000000;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    text-shadow: 2px 2px #000000;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+ }
+ #slogan {
+     font-family: 'Neo Latina';
+     font-size: 1.5em;
+     color: #62cae1;
+     text-shadow: 2px 2px #000000;
+     
+ }
+ #dF {
+     color: white;
+ }
+
+#tagline{
+    font-size: 2.5em;
+    font-family: 'Neo Latina';
+    color: #fda500;
+    text-shadow: 1px 1px #000000;
+
+}
+
+.header {
+    overflow: hidden;
+    background-color: #41414188;
+    margin: auto;
+    width: 100%;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Neo Latina';
+}
+
+.header a:hover{
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.header a.active {
+    background-color: #62cae1;
+    color: white;
+}
+.header-right {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Neo Latina';
+    
+}
+@media screen and (max-width: 500px){
+    header{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .header-right {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .logo {
+        text-align:center;
+        width: 100%;
+        display: block;
+    }
+    .header a{
+        float: none
+    }
+   
+}
+footer {
+    text-align: center;
+}
