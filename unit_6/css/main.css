@@ -157,13 +157,13 @@ a {
   display: table-cell;
 }
 #column1 {
-  background-color: #ff1971ba;
-}
-#column2 {
   background-color: #62cae1ba;
 }
+#column2 {
+  background-color: #fda500ba;
+}
 #column3 {
-  background-color: #ccbb14ba;
+  background-color: #62cae1ba;
   clear: right;
 }
 
